@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaila Brand — Options typographiques</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500&family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500&family=DM+Serif+Display&family=DM+Sans:wght@400;500&family=Abril+Fatface&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ivory:#f2e8d6; --ink:#34241a; --ink-70:#5b4736; --gold:#b8863b; --line:#d8c6a3;
+    box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Work Sans",sans-serif;}
+  .wrap{max-width:980px;margin:0 auto;padding:56px 28px 80px;}
+  header{margin-bottom:48px;}
+  header p.tag{color:var(--gold);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px;}
+  header h1{font-family:"Fraunces",serif;font-size:clamp(1.8rem,3.4vw,2.6rem);margin:0 0 12px;}
+  header p.sub{color:var(--ink-70);max-width:60ch;margin:0;}
+  .opt{border:1px solid var(--line);background:#fbf6ea;margin-bottom:28px;padding:32px 34px;}
+  .opt .label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:20px;flex-wrap:wrap;gap:8px;}
+  .opt .label .num{color:var(--gold);font-size:.8rem;letter-spacing:.06em;}
+  .opt .label .mood{color:var(--ink-70);font-size:.85rem;font-style:italic;}
+  .opt .headline{font-size:clamp(2rem,4.2vw,3rem);line-height:1.1;margin-bottom:16px;}
+  .opt .body-sample{color:var(--ink-70);max-width:62ch;font-size:1rem;margin-bottom:16px;}
+  .opt .fontnames{font-size:.82rem;color:var(--ink-70);border-top:1px solid var(--line);padding-top:14px;display:flex;gap:24px;flex-wrap:wrap;}
+  .opt .fontnames b{color:var(--ink);}
+  @media(max-width:600px){.opt{padding:24px 20px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="tag">Kaila Brand — présentation client</p>
+    <h1>Options typographiques</h1>
+    <p class="sub">Quatre associations de polices envisagées pour le site, avec un rendu réel du nom de la marque et d'un extrait de texte courant.</p>
+  </header>
+
+  <div class="opt" style="font-family:'Fraunces',serif;">
+    <div class="label"><span class="num">OPTION 1 — recommandée / déjà utilisée dans la maquette</span><span class="mood">Chaleureuse · artisanale · moderne</span></div>
+    <div class="headline">Kaila Brand</div>
+    <p class="body-sample" style="font-family:'Work Sans',sans-serif;">Kaila Brand crée des cartes postales inspirées des paysages, de la culture et de l'identité de la Colombie, avec un focus particulier sur Cali et le Pacifique colombien.</p>
+    <div class="fontnames"><span>Titres : <b>Fraunces</b></span><span>Texte : <b>Work Sans</b></span></div>
+  </div>
+
+  <div class="opt">
+    <div class="label"><span class="num">OPTION 2</span><span class="mood">Élégante · éditoriale · premium</span></div>
+    <div class="headline" style="font-family:'Playfair Display',serif;">Kaila Brand</div>
+    <p class="body-sample" style="font-family:'Inter',sans-serif;">Kaila Brand crée des cartes postales inspirées des paysages, de la culture et de l'identité de la Colombie, avec un focus particulier sur Cali et le Pacifique colombien.</p>
+    <div class="fontnames"><span>Titres : <b>Playfair Display</b></span><span>Texte : <b>Inter</b></span></div>
+  </div>
+
+  <div class="opt">
+    <div class="label"><span class="num">OPTION 3</span><span class="mood">Chaleureuse · arrondie · accueillante</span></div>
+    <div class="headline" style="font-family:'DM Serif Display',serif;">Kaila Brand</div>
+    <p class="body-sample" style="font-family:'DM Sans',sans-serif;">Kaila Brand crée des cartes postales inspirées des paysages, de la culture et de l'identité de la Colombie, avec un focus particulier sur Cali et le Pacifique colombien.</p>
+    <div class="fontnames"><span>Titres : <b>DM Serif Display</b></span><span>Texte : <b>DM Sans</b></span></div>
+  </div>
+
+  <div class="opt">
+    <div class="label"><span class="num">OPTION 4</span><span class="mood">Affiche vintage · carte postale · dramatique</span></div>
+    <div class="headline" style="font-family:'Abril Fatface',serif;font-size:clamp(1.8rem,3.8vw,2.7rem);">Kaila Brand</div>
+    <p class="body-sample" style="font-family:'Lato',sans-serif;">Kaila Brand crée des cartes postales inspirées des paysages, de la culture et de l'identité de la Colombie, avec un focus particulier sur Cali et le Pacifique colombien.</p>
+    <div class="fontnames"><span>Titres : <b>Abril Fatface</b></span><span>Texte : <b>Lato</b></span></div>
+  </div>
+</div>
+</body>
+</html>
